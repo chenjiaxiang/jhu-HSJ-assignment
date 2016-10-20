@@ -73,6 +73,19 @@ p {
 	background-color: yellow;
 	position: relative;
 	}
+
+	.title3 {
+	position: absolute;
+  	right: 0px;
+ 	top: 0px;
+ 	width: 20%;
+ 	height: 15%;
+ 	border-left: solid black;
+ 	border-bottom: solid black;
+ 	background-color: red;
+ 	text-align: center;
+ 	font-size: p.font-size*125%;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -91,6 +104,19 @@ p {
 	background-color: yellow;
 	position: relative;
 	}
+
+	.title3 {
+	position: absolute;
+  	right: 0px;
+ 	top: 0px;
+ 	width: 10%;
+ 	height: 15%;
+ 	border-left: solid black;
+ 	border-bottom: solid black;
+ 	background-color: red;
+ 	text-align: center;
+ 	font-size: p.font-size*125%;
+	}
 }
 
 @media (max-width: 767px) {
@@ -105,5 +131,18 @@ p {
 	margin-right: 2.5%;
 	background-color: yellow;
 	position: relative;
+	}
+
+	.title3 {
+	position: absolute;
+  	right: 0px;
+ 	top: 0px;
+ 	width: 20%;
+ 	height: 15%;
+ 	border-left: solid black;
+ 	border-bottom: solid black;
+ 	background-color: red;
+ 	text-align: center;
+ 	font-size: p.font-size*125%;
 	}
 }
